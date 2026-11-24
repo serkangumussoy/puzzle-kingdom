@@ -10,3 +10,15 @@ p,li{color:var(--muted)}strong{color:var(--text)}.tag{color:var(--gold);font-siz
 footer{border-top:1px solid var(--line);margin-top:40px;padding-top:20px;color:var(--muted);font-size:14px}
 code{overflow-wrap:anywhere;color:var(--gold)}.lang{border:1px solid var(--line);border-radius:12px;padding:18px;margin:18px 0}
 @media(max-width:600px){.wrap{padding:22px 15px 48px}.hero,.card{padding:20px}}
+/* Puzzle Kingdom yasal sayfaları: tablolar, kutular, butonlar */
+nav a[aria-current="page"]{text-decoration:underline;text-underline-offset:6px}
+h1{color:var(--text)}h1[id]{margin-top:48px}h2{scroll-margin-top:16px}
+.card{overflow-wrap:anywhere}
+.tw{overflow-x:auto;margin:12px 0}table{border-collapse:collapse;width:100%;min-width:480px}
+th,td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top;color:var(--muted)}th{color:var(--text);background:#222b3d}
+.note,.box{border-left:3px solid var(--gold);padding:12px 16px;background:#222b3d;border-radius:8px;margin:16px 0}
+.note,.box p{color:var(--muted)}
+.btn{display:inline-block;background:var(--gold);color:#1a1408;font-weight:700;text-decoration:none;padding:12px 20px;border-radius:12px;margin:8px 0}
+.btn:hover{filter:brightness(1.08)}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+ul,ol{padding-left:22px}
